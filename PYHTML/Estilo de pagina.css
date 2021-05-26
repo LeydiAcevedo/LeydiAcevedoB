@@ -1,0 +1,151 @@
+	#Principal
+	{
+	width: 920px;
+	height: 1200px;
+	border: 5px solid#9D64DB;
+	margin: auto;
+	background:#E8DAEF;
+
+}
+header{
+	width: 920px;
+	height: 150px;
+	border: 1px solid#9D64DB;
+}
+#logo{
+	width: 400px;
+	height: 150px;
+	float: left;
+}
+.Menu{
+	width: 500px;
+	height: 50px;
+	border: 1px solid#1F618D ;
+	float:right;
+	margin-top: 40px;
+	background:#E8DAEF;
+}
+.Menu ul{}
+.Menu ul li{
+	list-style: none;
+	float: right;
+}
+.Menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid ##1F618D;
+	color: #1F618D;
+}
+#slider{
+	margin-top: 10px;
+	width: 850px;
+	height: 210px;
+}
+#Categoria{
+	width: 1000px;
+	height: overflow:hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+.Uno{
+	width: 200px;
+	height: auto;overflow: hidden;
+	border: 1px solid #1A5276;
+	float: left;
+	padding: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background:#A9CCE3;
+	text-align: center;
+}
+.Dos{
+	width: 200px;
+	height: auto;overflow: hidden;
+	border: 1px solid #1A5276;
+	float: left;
+	padding: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background:#A9CCE3;
+	text-align: center;
+}
+.Tres{
+	width: 200px;
+	height: auto;overflow: hidden;
+	border: 1px solid #1A5276;
+	float: left;
+	padding: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background:#A9CCE3;
+	text-align: center;
+}
+.Cuatro{
+    width: 200px;
+	height: auto;overflow: hidden;
+	border: 1px solid #1A5276;
+	float: left;
+	padding: 3px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background:#A9CCE3;	
+	text-align: center;
+}
+.Leer-mas{
+	text-decoration: none;
+	border: 1px solid#006699;
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	margin-top: 5px;
+}
+.Leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition:background 1s, color 1s;
+}
+.container{
+	margin:auto;
+	width: 800px;
+	padding: 455px;
+	
+}
+ul.li{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+ul.slide{
+	position:relative;
+	width: 800px;
+	height: 300px;
+	list-style:none;
+}
+ul.slide li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: inherit;
+	transition: opacity .5s;
+}
+ul.slide li img{
+	width: 55%;
+	height: 300px;
+	object-fit: cover;
+}
+ul.slide li:first-child{
+	opacity: 1;
+}
+ul.slide li:target{
+	opacity: 1;
+}
+.menus{
+	text-align: center;
+	margin: 20px;
+
+}
+.menus li {
+	display: inline-block;
+	text-align: center;
+}
+
